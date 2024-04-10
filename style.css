@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #faf6f6;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #141415;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+label {
+    font-size: 1.2rem;
+    color: #0e0e0e;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 1.1rem;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+button[type="submit"] {
+    background-color: #1dbac5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #1d19df;
+}
+
+.recommendations-container {
+    margin-top: auto; /* Pushes the container to the bottom */
+}
+
+body {
+    background-image: url('https://media.istockphoto.com/id/1136817041/photo/colorful-pizza-ingredients-on-white-background-top-view.jpg?s=612x612&w=0&k=20&c=VWn51m6abfK9Q8C2xW4QLz6LrVxNO-Ttb4LVlVVQgUg=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
